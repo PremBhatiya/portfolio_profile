@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PremKumarJ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="bg-slate-400 scroll-auto">
+    <nav class="bg-opacity-5  w-full flex items-center shadow-xl fixed z-10 space-x-9 justify-around" >
+        <div class="text-white  font-bold text-2xl font-semibold pl-[50px]"><h1>Prem Kumar J</h1></div>
+        <ul class="flex space-x-5 p-[5px] pr-[50px] text-xl ">
+            <li class="text-white font-bold cursor-pointer hover:text-black" ><a href="#home">Home</a></li>
+            <li class="text-white font-bold cursor-pointer hover:text-black" ><a href="#project">Projects</a></li>
+            <li class="text-white font-bold cursor-pointer hover:text-black" ><a href="#about">About</a></li>
+            <li class="text-white font-bold cursor-pointer hover:text-black" ><a href="#contact">Contact</a></li>
+            </ul>
+    </nav> 
+    <div id="home" style="background-image: url('pg.jpg'); background-size:cover; background-repeat: no-repeat;height: 800px;width: auto;">
+            <div class="text-white text-8xl align-top pl-[40px] pt-[80px]" >
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1 class="text-red-600">Prem Kumar J<span></span></h1>
+                <button class="text-5xl ml-14 p-4 border border-black p-3 hover:bg-black"><a href="#project" type="button" class="cta">Portfolio</a></button>
+            </div>
+    </div>
+    <hr>
+    <!-- end of one div -->
+    <div class="bg-gray-500 pt-[80px]"id="project" >
+        <h1 class="text-white text-center text-5xl p-5 font-bold"><span class="text-black">Recent</span> Projects</h1>
+        <div id="pg1" class="flex items-center justify-center space-x-5">
+            <div id="cont" class="w-[500px] bg-gray-900 h-[278px] p-[20px]">
+                <h1 class="text-white text-4xl pb-2">Project 1</h1>
+                <h1 class="text-white text-2xl">Attendance Management System</h1>
+                <p class="text-white">Online Attendance management system deals with the maintenance of the student’s attendance details.
+                     It generates the attendance of the student on basis of presence in class. It is maintained on the daily basis 
+                     of all particular class of their attendance. Every single staff will be provided with the 
+                    separate email & password to make the respective class's student’s 
+                    status also more than One Class is Provided to take Attendance</p>
+            </div>
+            <div id="image" class="w-[500px] h-[278px] transition hover:scale-125">
+                <img src="project1.png" alt="">
+            </div>
+        </div>
+        <!-- end of one section -->
+        <div id="pg2" class="flex items-center justify-center space-x-5">
+            <div id="image" class="w-[500px] h-[278px] transition hover:scale-125">
+                <img src="project2.png" alt="">
+            </div>
+            <div id="cont" class="w-[500px] bg-gray-900 h-[278px] p-[20px]">
+                <h1 class="text-white text-4xl pb-2">Project 2</h1>
+                <h1 class="text-white text-2xl">Steam Engine</h1>
+                <p class="text-white">The Engine is made up of a Piston, Engine Pole, Cylinder Head, Flywheel, Crank Bell and a Crank.
+                     The viewer is allowed to rotate the Engine’s Crank either in clock wise or in anti-clock wise direction. 
+                     The viewer can also slow up or slow down the Crank speed.</p>
+            </div>
+        </div>
+        <div id="pg3" class="flex items-center justify-center space-x-5 pb-[80px]">
+            <div id="cont" class="w-[500px] bg-gray-900 h-[278px] p-[20px]">
+                <h1 class="text-white text-4xl pb-2">Project 3</h1>
+                <h1 class="text-white text-2xl">Tic Tac Toe</h1>
+                <p class="text-white">Tic-Tac-Toe Game is a very popular game played by two participants on the grid of 3 by 3.
+                     A special symbol (X or O) is assigned to each participant to indicate that the slot is covered by the respective participant. 
+                     The winner of the game is the participant who first cover a horizontal, vertical or diagonal row of the board having only their symbols</p>
+            </div>
+            <div id="image" class="w-[500px] h-[278px] transition hover:scale-125">
+                <img src="project3.png" alt="">
+            </div>
+    </div>
+    <hr class="pt-[30px]">
+    <!-- about me  -->
+    <div class="flex justify-center pt-[60px] space-x-5 pb-[80px]" id="about">
+        <div id="imageOfme">
+            <img src="Prem.jpg" class="w-[350px] h-[350px] transition hover:scale-105 border border-solid "alt="prem's Pic">
+        </div>
+        <div id="about me" class="h-[400px] w-[700px] text-white">
+            <h1 class="text-5xl pb-3"><span class="text-black font-bold">About</span> Me</h1>
+            <h2 class="text-4xl pb-6">Computer Engineering Student</h2>
+            <h2 class="text-4xl pb-6">Web Development | Machine Learning</h2>
+            <p>
+                Myself, Prem Kumar J ! I am Currently pursuing my BE in Computer Engineering from
+                    Rajarajeswari College of Engineering, Bengaluru.
+                I had worked as web Development intern at Varcons Technologies Pvt Ltd.
+                I have done many Online coursed. My Linkdln Profile includes all the licenses and certification of all courses.
+                you can check out this in contact section. check out my Resume,just by clicking below button 
+            </p>
+            <button class="text-2xl p-3 mt-3 border border-black  hover:bg-black"><a href="PremKumarJ-Resume.pdf" type="button" class="cta">Download Resume</a></button>  
+        </div>
+    </div>
+    <hr>
+   <!-- contact section -->
+   <section id="contact" class="pt-[80px] pb-[100px] flex items-center justify-center space-x-[300px]">
+    <div id="part1" class="">
+    <div class="items-center text-5xl text-center p-[20px]"><h1 class="text-black">My <span class="text-white ">Contacts</span></h1></div>
+    <div class="hi">
+        <div class="contact-items flex items-center justify-center pt-10 space-y-10 flex-col">
+            <div class="contact-item flex items-center border border-black p-4 h-[150px] w-[300px]">
+                <div class="icon">
+                  <img src="https://img.icons8.com/fluent/96/000000/phone-disconnected.png">
+                  </div>
+        <div class="contact-info">
+            <h1>Phone</h1>
+            <div class="contact-btn">
+            <a href="tel:+919686703521" class=" hover:text-white" target="_blank">+91 9686703521</a>
+          </div>
+        </div>
+    </div>
+    
+    <div class="contact-item flex items-center border border-black p-4 h-[150px] w-[300px]">
+        <div class="icon">
+          <img src="https://img.icons8.com/fluent/96/000000/gmail.png">
+        </div>
+<div class="contact-info">
+    <h1>Email</h1>
+    <div class="contact-btn">
+      <a href="mailto:kprem3742@gmail.com" class=" hover:text-white"target="_blank">kprem3742@gmail.com</a>
+    </div>   
+</div>
+</div>
+
+<div class="contact-item flex items-center border border-black p-4 h-[150px] w-[300px]">
+<div class="icon">
+  <img src="https://img.icons8.com/fluent/96/000000/google-maps-new.png">
+</div>
+<div class="contact-info">
+<h1>Address</h1>
+  <div class="contact-btn"> 
+  <a href="https://goo.gl/maps/jkU7aQXoBAMWALQz8" class=" hover:text-white"target="_blank">Manganhalli, Karnataka, India</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- part2 -->
+<div id="part2" class="scale-110">
+    <form onsubmit="return sender()" action="" class="grid-flow-col space-y-5" >
+        <label for="name">Your Name:</label>
+        <input id="name" type="text" name="Name" class="ml-8"required maxlength="50"><br>
+        <label for="email">Email Address:</label>
+        <input id="email" type="email" name="Email" class="ml-3" required maxlength="50"><br>
+        <label for="message" class="">Message:</label>
+        <textarea id="message" name="Message" rows="10" maxlength="" cols="22.3" class="ml-12"required></textarea><br>
+        <input type="submit"  class="bg-blue-800 border text-white  cursor-pointer hover:bg-blue-900   w-[80px] border-black"value="Send" id="btn">
+    </form>
+</div>
+</section>
+<!-- footer -->
+<section id="footer" class="bg-slate-900 text-center">
+    <div class="text-white"><h1><span>Prem</span>Kumar J</h1></div>
+        <h2 class="text-white">Feel free to connect !</h2>
+    <div class="p1">
+        <div class="flex text-center justify-center p-4 items-center space-x-5" >
+    <div class="social-item">
+        <a href="https://twitter.com/PremKum82484940" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"></a>
+    </div>
+    <div class="social-item">
+        <a href="https://www.instagram.com/prem.bhatia21/" target="_blank"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"></a>
+    </div>
+<div class="social-item">
+<a href="https://www.linkedin.com/in/prem-kumar-j-b2241a21b/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png"></a>
+</div>
+</div>
+</div>
+</section>
+<script src="form.js"></script>
+</body>
+</html> 
